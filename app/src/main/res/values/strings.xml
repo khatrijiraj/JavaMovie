@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Java Movie</string>
     <string name="javamovie">JavaMovie</string>
+    <string name="enter_your_username">Enter your username</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="sing_in">Sing In</string>
+    <string name="new_user_signup">New User Signup</string>
+    <string name="sign_up">Sign up</string>
 </resources>
