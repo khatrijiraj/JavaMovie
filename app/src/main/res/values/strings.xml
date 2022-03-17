@@ -4,6 +4,16 @@
     <string name="enter_your_username">Enter your username</string>
     <string name="enter_your_password">Enter your password</string>
     <string name="sing_in">Sing In</string>
-    <string name="new_user_signup">New User Signup</string>
+    <string name="new_user_signup">New user signup</string>
     <string name="sign_up">Sign up</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_up1">SIGN UP</string>
+    <string name="retype_password">Retype password</string>
+    <string name="register">REGISTER</string>
+    <string name="already_have_an_account_sign_in">ALREADY HAVE AN ACCOUNT? SIGN IN</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="do_not_have_an_account_signup">Do NOT have an account? signup</string>
 </resources>
