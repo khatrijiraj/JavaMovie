@@ -3,13 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.223" />
         <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/drawable/edittextbackground.xml" value="0.2135" />
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.215" />
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/drawable/ic_baseline_library_books_24.xml" value="0.215" />
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.215" />
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/drawable/ic_launcher_background.xml" value="0.223" />
         <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/layout-land/activity_main.xml" value="0.4" />
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/layout/activity_compiler.xml" value="0.25416666666666665" />
         <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/layout/activity_dbhelper.xml" value="0.25" />
-        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/layout/activity_profile.xml" value="0.25416666666666665" />
         <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/layout/activity_test.xml" value="0.25416666666666665" />
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/layout/fragment_blank.xml" value="0.25416666666666665" />
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/layout/fragment_scrolling.xml" value="0.25416666666666665" />
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/menu/bnavmenu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/menu/bottomnav.xml" value="0.25416666666666665" />
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.223" />
+        <entry key="..\:/Documents/Code/Android Development/JavaMovie/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.223" />
       </map>
     </option>
   </component>

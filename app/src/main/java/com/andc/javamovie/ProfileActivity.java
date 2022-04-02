@@ -1,20 +1,24 @@
 package com.andc.javamovie;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class HomeActivity extends AppCompatActivity {
-    BottomNavigationView bottomNavigationView;
+public class ProfileActivity extends AppCompatActivity {
+Button logout;
+BottomNavigationView bottomNavigationView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_profile);
+        logout= findViewById(R.id.logoutButton);
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
-        bottomNavigationView.setSelectedItemId(R.id.bNavHome);
+        bottomNavigationView.setSelectedItemId(R.id.bNavProfile);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
             int itemId = item.getItemId();
@@ -35,6 +39,17 @@ public class HomeActivity extends AppCompatActivity {
                 overridePendingTransition(0, 0);
             }
             return false;
+        });
+
+        logout.setOnClickListener(view -> {
+            SharedPreferences sharedPreferences = getSharedPreferences("login", MODE_PRIVATE);
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.putBoolean("flag", false);
+            editor.apply();
+
+            Intent iLogOut;
+            iLogOut = new Intent(ProfileActivity.this, MainActivity.class);
+            startActivity(iLogOut);
         });
     }
 }

@@ -2,6 +2,7 @@ package com.andc.javamovie;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 
@@ -16,7 +17,15 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
 
         new Handler().postDelayed(() -> {
-            Intent iLogin = new Intent(SplashActivity.this, MainActivity.class);
+            SharedPreferences sharedPreferences = getSharedPreferences("login", MODE_PRIVATE);
+            boolean check = sharedPreferences.getBoolean("flag", false);
+            Intent iLogin;
+            if (check) {
+                iLogin = new Intent(SplashActivity.this, HomeActivity.class);
+
+            } else {
+                iLogin = new Intent(SplashActivity.this, MainActivity.class);
+            }
             startActivity(iLogin);
             finish();
         }, 3000);

@@ -3,6 +3,7 @@ package com.andc.javamovie;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.Button;
@@ -27,6 +28,12 @@ public class LoginActivity extends AppCompatActivity {
         DB = new DBHelper(this);
 
         login.setOnClickListener(view -> {
+
+            SharedPreferences sharedPreferences = getSharedPreferences("login",MODE_PRIVATE);
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.putBoolean("flag",true);
+            editor.apply();
+
             String user = username.getText().toString();
             String pass = password.getText().toString();
 

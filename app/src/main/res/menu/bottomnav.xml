@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bNavHome"
+        android:icon="@drawable/homeicon"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/bNavWebview"
+        android:icon="@drawable/ic_baseline_computer_24"
+        android:title="@string/compiler" />
+    <item
+        android:id="@+id/bNavTest"
+        android:icon="@drawable/test"
+        android:title="@string/test" />
+    <item
+        android:id="@+id/bNavProfile"
+        android:icon="@drawable/accounticon"
+        android:title="@string/profile" />
+</menu>

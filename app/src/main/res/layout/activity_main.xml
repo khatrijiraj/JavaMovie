@@ -67,10 +67,11 @@
     <Button
         android:id="@+id/login"
         android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_margin="30dp"
         android:backgroundTint="#000000"
         android:text="@string/register"
+        app:cornerRadius="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/retypePasswordTextView" />
@@ -82,6 +83,7 @@
         android:layout_margin="30dp"
         android:backgroundTint="#000000"
         android:text="@string/already_have_an_account_sign_in"
+        app:cornerRadius="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login" />
