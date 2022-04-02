@@ -20,7 +20,7 @@ BottomNavigationView bottomNavigationView;
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
         bottomNavigationView.setSelectedItemId(R.id.bNavProfile);
 
-        bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
+        bottomNavigationView.setOnItemSelectedListener(item -> {
             int itemId = item.getItemId();
             if (itemId == R.id.bNavHome) {
                 startActivity(new Intent(getApplicationContext(), HomeActivity.class));
