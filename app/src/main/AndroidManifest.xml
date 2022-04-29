@@ -4,6 +4,8 @@
     package="com.andc.javamovie">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,6 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JavaMovie">
+        <activity
+            android:name=".CppCourse"
+            android:exported="false" />
+        <activity
+            android:name=".JavaCourse"
+            android:exported="false" />
         <activity
             android:name=".ProfileActivity"
             android:exported="false" />

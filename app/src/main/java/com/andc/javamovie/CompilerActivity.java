@@ -48,7 +48,7 @@ public class CompilerActivity extends AppCompatActivity {
         });
         progressBar = findViewById(R.id.progressBar);
         webView = findViewById(R.id.compilerWebview);
-        webView.loadUrl("https://www.mycompiler.io/new/java");
+        webView.loadUrl("https://www.mycompiler.io/new/java/");
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
         webView.setWebViewClient(new WebViewClient() {
