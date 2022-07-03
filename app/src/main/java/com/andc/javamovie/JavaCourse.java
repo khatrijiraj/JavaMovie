@@ -31,6 +31,6 @@ public class JavaCourse extends YouTubeBaseActivity {
 
             }
         };
-        play.setOnClickListener(view -> youTubePlayerView.initialize("",onInitializedListener));
+        play.setOnClickListener(view -> youTubePlayerView.initialize("key=API_KEY",onInitializedListener));
     }
 }
