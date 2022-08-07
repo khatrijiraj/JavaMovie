@@ -1,2 +1,1 @@
-A Java/C++ tutorial app based on Android comprises a compiler based on WebView, Video tutorials using YouTube API, an Account module using SQL, and a Test module.
-This project is jointly undertaken by Raj Khatri (@khatrijiraj) and Rishabh Sharma as their Semester - 4 Software Engineering Project.
+Android-based Java/C++ Tutorial App which includes a WebView-based compiler, YouTube API-based video tutorial, and SQLite-based user account module. Raj Khatri and Rishabh Sharma jointly worked on this project as part of their 4th-semester software engineering project.
